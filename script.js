@@ -22,7 +22,7 @@ function compute()
 
 function SliderValue()
 {
-    var slider = document.getElementById("rate");
+    var slider = document.getElementById("rate_val");
     var output = document.getElementById("rate_display");
     output.innerHTML = slider.value; // Display the default slider value
 
